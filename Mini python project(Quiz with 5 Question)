@@ -1,0 +1,41 @@
+#Mini Project(Quiz with 5 question/Using loops)
+print("Welcome to python quiz")
+print("Answer the following 5 questions and get your score")
+score=0
+#1st question
+print("What is the language used in this program?")
+if(input()=="python"):
+    print("Correct,1 points")
+    score+=1
+else:
+    print("Incorrect,0 points")
+#2nd question
+print("When was python created?")
+if(input()=="1991"):
+    print("Correct,1 points")
+    score+=1
+else:
+    print("Incorrect,0 points")
+#3rd question
+print("Who created python?")
+if(input()=="Guido Van Rossum"):
+    print("Correct,1 points")
+    score+=1
+else:
+    print("Incorrect,0 points")
+#4th question
+print("What is the latest vesion of python?")
+if(input()=="2.7.18"):
+    print("Correct,1 points")
+    score+= 1
+else:
+    print("Incorrect,0 points")
+#5th question
+print("What is the compiler used?")
+if(input()=="Collab"):
+    print("Correct,1 points")
+    score+= 1
+else:
+    print("Incorrect,0 points")
+
+print("Your final score:" + str(score))
